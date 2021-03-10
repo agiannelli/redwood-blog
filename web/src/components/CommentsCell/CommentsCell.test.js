@@ -11,7 +11,7 @@ describe('CommentsCell', () => {
 
   it('renders Empty successfully', async () => {
     render(<Empty />)
-    expect(screen.getByText('No comments yet').toBeInTheDocument()
+    expect(screen.getByText('No comments yet')).toBeInTheDocument()
   })
 
   it('renders Failure successfully', async () => {
@@ -20,7 +20,7 @@ describe('CommentsCell', () => {
     }).not.toThrow()
   })
 
-// When you're ready to test the actual output of your component render
+  // When you're ready to test the actual output of your component render
   // you could test that, for example, certain text is present:
   //
   //   expect(screen.getByText('Hello, world')).toBeInTheDocument()
