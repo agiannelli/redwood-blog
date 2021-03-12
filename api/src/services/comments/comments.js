@@ -14,3 +14,9 @@ export const createComment = ({ input }) => {
     data: input,
   })
 }
+
+export const deleteComment = ({ id }) => {
+  return db.comment.delete({
+    where: { id },
+  })
+}
