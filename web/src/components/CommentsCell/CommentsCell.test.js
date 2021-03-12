@@ -9,7 +9,7 @@ describe('CommentsCell', () => {
     }).not.toThrow()
   })
 
-  it('renders Empty successfully', async () => {
+  it('Empty renders a "no comments" message', async () => {
     render(<Empty />)
     expect(screen.getByText('No comments yet')).toBeInTheDocument()
   })

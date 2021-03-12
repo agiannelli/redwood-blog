@@ -1,4 +1,4 @@
-import { comments, createComment } from './comments'
+import { comments, createComment, deleteComment } from './comments'
 
 describe('comments', () => {
   scenario(
@@ -22,4 +22,17 @@ describe('comments', () => {
     expect(comment.postId).toEqual(scenario.post.bark.id)
     expect(comment.createdAt).not.toEqual(null)
   })
+
+  // scenario('deletes a comment', async (scenario) => {
+  //   mockCurrentUser({ roles: ['moderator'] })
+
+  //   const comment = await deleteComment({
+  //     id: scenario.comment.jane.id,
+  //   })
+  //   expect(comment.id).toEqual(scenario.comment.jane.id)
+
+  //   expect(
+  //     await db.comments.findUnique({ where: { id: scenario.comment.jane.id } })
+  //   ).toEqual(null)
+  // })
 })

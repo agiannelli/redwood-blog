@@ -13,6 +13,7 @@ export const generated = () => {
       },
     }
   })
+
   return (
     <div className="m-4">
       <CommentForm />
