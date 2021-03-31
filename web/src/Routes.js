@@ -12,17 +12,17 @@ import { Router, Route, Private } from '@redwoodjs/router'
 const Routes = () => {
   return (
     <Router>
-      <Route path="/contact" page={ContactPage} name="contact" />
+      <Route path="/contact" page={ContactPage} name="contact" prerender />
       <Route path="/blog-post/{id:Int}" page={BlogPostPage} name="blogPost" />
-      <Route path="/about" page={AboutPage} name="about" />
-      <Route path="/" page={HomePage} name="home" />
+      <Route path="/about" page={AboutPage} name="about" prerender />
+      <Route path="/" page={HomePage} name="home" prerender />
       <Private unauthenticated="home" roles="admin">
         <Route path="/admin/posts/new" page={NewPostPage} name="newPost" />
         <Route path="/admin/posts/{id:Int}/edit" page={EditPostPage} name="editPost" />
         <Route path="/admin/posts/{id:Int}" page={PostPage} name="post" />
         <Route path="/admin/posts" page={PostsPage} name="posts" />
       </Private>
-      <Route notfound page={NotFoundPage} />
+      <Route notfound page={NotFoundPage} prerender />
     </Router>
   )
 }
