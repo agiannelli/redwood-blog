@@ -1,19 +1,23 @@
-# Redwood Tutorial App
+# Redwood Blog App
 
-This repo represents the final state of the app created during the [Redwood Tutorial](https://redwoodjs.com/tutorial).
-It is meant to be a starting point for those working on the [Tutorial Part 2](https://redwoodjs.com/tutorial2).
+This repo will follow all stages of the [Redwood Tutorial](https://redwoodjs.com/tutorial) and include all Redwood upgrades. 🚀
 
-This repo contains much more styling than the one we built together in the tutorial, but is functionally identical.
+Based off of the original [redwood-tutorial repo](https://github.com/redwoodjs/redwood-tutorial)
 
-## Setup
+## Current Redwood Version: v0.28.1 🚀
 
-The [tutorial itself](https://redwoodjs.com/tutorial2/prerequisites) contains instructions for getting this repo up and running, but here is a summary of the commands:
+### Demo Site
 
-```bash
-git clone https://github.com/redwoodjs/redwood-tutorial
-cd redwood-tutorial
-yarn install
-yarn rw prisma migrate dev
-yarn rw prisma db seed
-yarn rw dev
-```
+[https://stoic-payne-3f60c6.netlify.app/](https://stoic-payne-3f60c6.netlify.app/)
+
+### Deployment
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ce2a04c-afc5-4771-b43d-1b2a5f627b5c/deploy-status)](https://app.netlify.com/sites/stoic-payne-3f60c6/deploys)
+
+## About Redwood
+
+> Bringing full-stack to the Jamstack
+
+Learn more about Redwood @ [redwoodjs.com](https://redwoodjs.com/):
+
+Do the tutorials yourself @ [learn.redwoodjs.com](https://learn.redwoodjs.com/)
