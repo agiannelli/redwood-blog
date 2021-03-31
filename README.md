@@ -18,6 +18,6 @@ Based off of the original [redwood-tutorial repo](https://github.com/redwoodjs/r
 
 > Bringing full-stack to the Jamstack
 
-Learn more about Redwood @ [redwoodjs.com](https://redwoodjs.com/):
+Learn more about Redwood @ [redwoodjs.com](https://redwoodjs.com/)
 
 Do the tutorials yourself @ [learn.redwoodjs.com](https://learn.redwoodjs.com/)
